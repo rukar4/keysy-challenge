@@ -6,9 +6,9 @@
     "target": "es2022",
     "allowJs": true,
     "resolveJsonModule": true,
-    "moduleDetection": "force",
+    "moduleDetection": "auto",
     "isolatedModules": true,
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
 
     /* Strictness */
     "strict": true,
@@ -36,7 +36,6 @@
     "**/*.tsx",
     "**/*.cjs",
     "**/*.js",
-    ".next/types/**/*.ts"
   ],
   "exclude": ["node_modules"]
 }
