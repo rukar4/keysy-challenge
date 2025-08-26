@@ -38,7 +38,7 @@ export default function Listings() {
               {listings.map((listing) => (
                 <li key={listing.id} className="p-4 border rounded shadow">
                   <h2 className="text-2xl font-semibold">{listing.year} {listing.make} {listing.model}</h2>
-                  <p>Price: {listing.price}</p>
+                  <p>Price: ${listing.price.toLocaleString()}</p>
                 </li>
               ))}
             </ul>
